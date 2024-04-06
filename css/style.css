@@ -1,0 +1,178 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #F5EBE0;
+    font-family: cursive;
+    color: #412103;
+    margin: 0;
+    font-size: 30px;
+    font-size: bold;
+}
+image{
+    max-width: 100%;
+  
+
+}
+h1, h2, h3, h4, h5, h6, p,ul, li {
+    margin: 0 ;
+    padding: 0;
+}
+
+
+header {
+    max-width: 1400px;
+     margin: auto;
+    display: flex;
+    justify-content: space-between;
+   padding: 24px 20px;
+   background-color: #D5BDAF;
+   color: #EDEDE9;
+    
+}
+header nav ul, footer nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+header p {
+    font-weight: bold;
+}
+head nav ul a, footer nav ul a {
+    text-decoration: none;
+    color: #412103;
+}
+head nav ul a:hover,footer nav ul a:hover {
+    text-decoration: underline;
+    color: #412103;
+    
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 200px;
+  }
+  
+  .info.immagine1 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 10px;
+   
+  }
+  
+  .info h1 {
+    font-size: 100px;
+    text-align: left;
+  }
+
+ 
+ .immagine2 {
+    width: 200px;
+    height: 300px;
+ 
+}
+
+ 
+.text{
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+.image2 {
+   
+    display: flex;
+    align-items: left;
+    padding-left: 25px;
+   
+}
+ 
+
+.image2 p {
+    font-size: 35px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.immagine3{
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    float: left;    
+}
+   
+.image3 p {
+    display: grid;
+    padding-left: 30px;
+    font-size: 27px;
+   
+    
+}
+.text2{
+    font-size: 50px;
+    text-align: center;
+    
+  }
+.text3 {
+    display: grid;
+    font-size: 25px;
+    font-size: bold;
+   
+}
+
+.image4 p {
+    display: grid;
+    font-size: 20px;
+    
+}
+.text4{
+    font-size: 50px;
+    text-align: center;
+    
+  }
+  
+  .immagine4 {
+   
+    margin-right: 20px;
+    height: 200px;
+    width: 200px;
+    float: right;
+  }
+
+  .immagine5 {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    float: right;
+    
+  }
+  .image5 {
+        font-size: 20px;
+        text-align: left;
+     
+     
+    }
+       
+
+    
+  
+
+  footer{
+    display: flex;
+    padding: 24px 20px;
+    font-size: 20px;
+    max-width: 1400px;
+    background-color: #D5BDAF ;
+    margin: auto;
+    align-items: center;
+    color: #EDEDE9;
+    
+}
+footer nav ul li {
+    margin-right: 110px;
+}
+
